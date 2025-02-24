@@ -21,23 +21,23 @@ import img3 from "../imgs/img3.png";
 export const SidebarData = [
   {
     icon: UilEstate,
-    heading: "Dashboard",
+    heading: "Home",
   },
   {
     icon: UilClipboardAlt,
-    heading: "Orders",
+    heading: "Request",
   },
   {
     icon: UilUsersAlt,
-    heading: "Customers",
+    heading: "Clients",
   },
   {
     icon: UilPackage,
-    heading: 'Products'
+    heading: 'items'
   },
   {
     icon: UilChart,
-    heading: 'Analytics'
+    heading: 'Data'
   },
 ];
 
@@ -55,7 +55,7 @@ export const cardsData = [
     series: [
       {
         name: "Sales",
-        data: [31, 40, 28, 51, 42, 109, 100],
+        data: [15, 30, 45, 65, 90, 105, 110],
       },
     ],
   },
@@ -65,8 +65,8 @@ export const cardsData = [
       backGround: "linear-gradient(180deg, #FF919D 0%, #FC929D 100%)",
       boxShadow: "0px 10px 20px 0px #FDC0C7",
     },
-    barValue: 80,
-    value: "14,270",
+    barValue: 50,
+    value: "12,345",
     png: UilMoneyWithdrawal,
     series: [
       {
@@ -104,9 +104,9 @@ export const UpdatesData = [
   },
   {
     img: img2,
-    name: "James Bond",
-    noti: "has received Samsung gadget for charging battery.",
-    time: "30 minutes ago",
+    name: "Bruna Karla",
+    noti: "has received Xiaomi 14 C phone.",
+    time: "1 hour ago",
   },
   {
     img: img3,
