@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# 📊 React Admin Dashboard - Customizado
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é uma versão modificada do tutorial "React Responsive Admin Panel", criado para entender conceitos fundamentais do React, como manipulação de estados e criação de interfaces dinâmicas.
 
-## Available Scripts
+# 🚀 Objetivo
 
-In the project directory, you can run:
+O objetivo desta atividade foi praticar e compreender os conceitos básicos do React por meio da personalização de um painel administrativo responsivo.
 
-### `yarn start`
+# 🔧 Modificações realizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Barra lateral
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Alteração dos nomes dos cinco itens do menu.
+-  Mudança da cor para um tom de verde.
 
-### `yarn test`
+## Dashboard (Miniatura)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Redução do tamanho do card "Revenue" de 80% para 50%.
+- Atualização do valor do card "Revenue" de 14,270 para 12,345.
 
-### `yarn build`
+## Dashboard (Expandido)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Modificação dos valores apresentados no gráfico de Sales.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Mensagens
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Substituição do texto e da foto do usuário James Bond.
 
-### `yarn eject`
+## Tabela
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Atualização dos valores da coluna "Status" conforme as regras abaixo:
+➜ 2 linhas com status: "Delivered".
+➜ 1 linha com status: "Pending".
+➜ 1 linha com status: "Approved".
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# 🛠️ Como executar o projeto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone o repositório: 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```sh
+git clone https://github.com/Bru-Silveira/React-Admin-Dashboard-public.git
+```
 
-## Learn More
+2. Acesse a pasta do projeto:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```sh
+cd React-Admin-Dashboard-public
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Instale as dependências:
 
-### Code Splitting
+```sh
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4. Inicie o servidor local: 
 
-### Analyzing the Bundle Size
+```sh
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+5. O projeto estará rodando em:
+http://localhost:3000
 
-### Making a Progressive Web App
+# 🛠️ Tecnologias utilizadas
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- React.js ⚛️
+- ApexCharts.js 📈 (para os gráficos)
+- CSS personalizado 🎨
 
-### Advanced Configuration
+# 📜 Licença
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Este projeto foi desenvolvido para fins educacionais e não possui uma licença específica.
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
