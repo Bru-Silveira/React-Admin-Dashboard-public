@@ -29,9 +29,9 @@ O objetivo desta atividade foi praticar e compreender os conceitos básicos do R
 ## Tabela
 
 Atualização dos valores da coluna "Status" conforme as regras abaixo:
-➜ 2 linhas com status: "Delivered".
-➜ 1 linha com status: "Pending".
-➜ 1 linha com status: "Approved".
+- 2 linhas com status: "Delivered".
+- 1 linha com status: "Pending".
+- 1 linha com status: "Approved".
 
 # 🛠️ Como executar o projeto
 
